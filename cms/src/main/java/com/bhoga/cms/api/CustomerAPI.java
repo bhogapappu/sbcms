@@ -18,7 +18,7 @@ import com.bhoga.cms.service.CustomerService;
 
 @RestController
 @RequestMapping(value = "/customers")
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="https://sbcmsui.herokuapp.com/")
 public class CustomerAPI {
 
 	@Autowired
